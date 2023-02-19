@@ -1,0 +1,66 @@
+/* .container{
+  font-size: large;
+  font-size: 20px;
+  color: #00000;
+  font-family: cursive;
+  text-align: center;
+  background-image: radial-gradient(circle, #c5cad3, #9facb1, #7f8d8c, #646f68, #4f5147);
+
+} */
+
+body{
+  font-size: large;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  text-align: center;
+background-color: aliceblue;  
+height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* #karakteristik{
+min-height: 100%
+   background-color: white;
+   border: 1px solid white;
+     text-align: center;
+word-wrap: break-word;
+
+} */
+
+#animasi{
+  animation-name: move;
+  animation-duration: 4s;
+  cursor: pointer;
+}
+
+#nama{
+  width: 10%;
+  padding: 9px 9px;
+  margin: 6px 0;
+}
+
+#ruang{
+  font-size: 25px;
+}
+
+a.tombol{
+  background-color: #53488d;
+  border-radius: 7px;
+  margin-bottom:70px;
+  box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 5px 22px;
+  text-decoration: none;
+  -webkit-transition: box-shadow 1s ease;
+  transition: box-shadow 1s ease;
+  box-shadow: 0px 4px 4px rgba(33,62,66,.5);
+  /* -webkit-transition: box-shadow 1s ease; */
+  transition: box-shadow 1s ease;
+}
